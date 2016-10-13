@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <img src="img/newball.png" id="ball" style="display: none;">
+    <img src="img/win.png" id="win" style="display: none;">
+    <img src="img/gameover.png" id="gameover"style="display: none;">
+    <img src="img/paddle.jpg" id="paddle"style="display: none;">
+    <img src="img/alex.gif" id="alex"style="display: none;">
+    <img src="img/angel.gif" id="angel"style="display: none;">
+    <img src="img/ivan.gif" id="ivan"style="display: none;">
+    <img src="img/simeon.gif" id="simeon"style="display: none;">
+    <img src="img/trifon.gif" id="trifon"style="display: none;">
+    <img src="img/nakov.gif" id="nakov"style="display: none;">
+    <audio src="audio/Blast.wav" id="Blast">
+        Your browser does not support the audio element.
+    </audio>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class = "wrapper">
+    <aside class="sidebar">
+        <div class="logo">
+            <img width="250" src="img/nakovLogoSite.png">
+        </div>
+
+        <nav>
+            <ul>
+                <button type="button" id="pause" class="single-menu-element-link">
+                    <li class="single-menu-element">Pause</li>
+                </button>
+            </ul>
+            <ul>
+                <a href="game.html" class="single-menu-element-link">
+                    <li class="single-menu-element">Play again</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="index.html" class="single-menu-element-link">
+                    <li class="single-menu-element">Home</li>
+                </a>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <footer>
+            <p class="footer-text">
+                &copy;Team "Labrum" Project, All Rights Reserved
+            </p>
+        </footer>
+        <ul class="articles">
+            <li class="single-post">
+                <center>
+                    <article>
+                        <h3 class="title">Smash it!</h3>
+                        <div>
+                            <canvas id="myCanvas" width="515" height="600"></canvas>
+                            <script src="js/script.js"></script>
+                        </div>
+                    </article>
+                </center>
+            </li>
+        </ul>
+    </main>
+</div>
+</body>
+</html>
